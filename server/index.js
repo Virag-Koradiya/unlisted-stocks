@@ -16,6 +16,7 @@ app.use(cookieParser());
 
 const corsOptions = {
     origin: [
+        'https://unlisted-stocks.vercel.app',
         'http://localhost:8080',
         'http://127.0.0.1:8080',
     ],
