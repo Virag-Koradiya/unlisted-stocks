@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:8000/api";
+const API_BASE = "https://unlisted-stocks.onrender.com/api";
 
 export interface Stock {
   _id: string;
